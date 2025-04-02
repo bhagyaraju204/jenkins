@@ -11,5 +11,15 @@ pipeline {
         sh 'python3 hello_world.py'
       }
     }
+     stage('wipro') {
+      steps {
+        sh 'python3 wipro.py'
+      }
+    }
+     stage('hello') {
+      steps {
+        sh 'python3 Jenkins.py'
+      }
+    }
   }
 }
