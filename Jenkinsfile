@@ -16,7 +16,7 @@ pipeline {
         sh 'python3 wipro.py'
       }
     }
-     stage('hello') {
+     stage('jenkins') {
       steps {
         sh 'python3 Jenkins.py'
       }
